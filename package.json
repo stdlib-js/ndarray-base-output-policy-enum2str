@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/ndarray-base-output-policy-enum2str",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Return the data type string associated with an ndarray data type enumeration constant.",
   "license": "Apache-2.0",
   "author": {
@@ -43,7 +43,7 @@
   "devDependencies": {
     "@stdlib/assert-is-string": "^0.0.8",
     "@stdlib/bench": "^0.0.12",
-    "@stdlib/ndarray-base-output-policy-str2enum": "github:stdlib-js/ndarray-base-output-policy-str2enum#main",
+    "@stdlib/ndarray-base-output-policy-str2enum": "^0.0.1",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
