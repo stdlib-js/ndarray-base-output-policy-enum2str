@@ -41,7 +41,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import enum2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-output-policy-enum2str@esm/index.mjs';
+import enum2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-output-policy-enum2str@v0.0.2-esm/index.mjs';
 ```
 
 #### enum2str( policy )
@@ -92,7 +92,7 @@ var v = enum2str( -999999999 );
 <script type="module">
 
 import str2enum from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-output-policy-str2enum@esm/index.mjs';
-import enum2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-output-policy-enum2str@esm/index.mjs';
+import enum2str from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-output-policy-enum2str@v0.0.2-esm/index.mjs';
 
 var str = enum2str( str2enum( 'same' ) );
 // returns 'same'
