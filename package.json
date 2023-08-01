@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/ndarray-output-dtype-policies": "github:stdlib-js/ndarray-output-dtype-policies#main",
+    "@stdlib/ndarray-output-dtype-policies": "^0.0.1",
     "@stdlib/utils-object-inverse": "^0.0.8"
   },
   "devDependencies": {
