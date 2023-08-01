@@ -34,43 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/ndarray-base-output-policy-enum2str
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
-To use in Observable,
-
 ```javascript
-enum2str = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-output-policy-enum2str@umd/browser.js' )
-```
-The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-output-policy-enum2str/tags). For example,
-
-```javascript
-enum2str = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-output-policy-enum2str@v0.0.2-umd/browser.js' )
-```
-
-To vendor stdlib functionality and avoid installing dependency trees for Node.js, you can use the UMD server build:
-
-```javascript
-var enum2str = require( 'path/to/vendor/umd/ndarray-base-output-policy-enum2str/index.js' )
-```
-
-To include the bundle in a webpage,
-
-```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-output-policy-enum2str@umd/browser.js"></script>
-```
-
-If no recognized module system is present, access bundle contents via the global scope:
-
-```html
-<script type="text/javascript">
-(function () {
-    window.enum2str;
-})();
-</script>
+var enum2str = require( '@stdlib/ndarray-base-output-policy-enum2str' );
 ```
 
 #### enum2str( policy )
@@ -114,14 +101,9 @@ var v = enum2str( -999999999 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-output-policy-str2enum@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-output-policy-enum2str@umd/browser.js"></script>
-<script type="text/javascript">
-(function () {
+```javascript
+var str2enum = require( '@stdlib/ndarray-base-output-policy-str2enum' );
+var enum2str = require( '@stdlib/ndarray-base-output-policy-enum2str' );
 
 var str = enum2str( str2enum( 'same' ) );
 // returns 'same'
@@ -146,11 +128,6 @@ str = enum2str( str2enum( 'complex_floating_point' ) );
 
 str = enum2str( str2enum( 'real_floating_point' ) );
 // returns 'real_floating_point'
-
-})();
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -192,6 +169,11 @@ For more information on the project, filing bug reports and feature requests, an
 
 ---
 
+## License
+
+See [LICENSE][stdlib-license].
+
+
 ## Copyright
 
 Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
@@ -207,8 +189,8 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/ndarray-base-output-policy-enum2str.svg
 [npm-url]: https://npmjs.org/package/@stdlib/ndarray-base-output-policy-enum2str
 
-[test-image]: https://github.com/stdlib-js/ndarray-base-output-policy-enum2str/actions/workflows/test.yml/badge.svg?branch=v0.0.2
-[test-url]: https://github.com/stdlib-js/ndarray-base-output-policy-enum2str/actions/workflows/test.yml?query=branch:v0.0.2
+[test-image]: https://github.com/stdlib-js/ndarray-base-output-policy-enum2str/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/ndarray-base-output-policy-enum2str/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/ndarray-base-output-policy-enum2str/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/ndarray-base-output-policy-enum2str?branch=main
@@ -235,7 +217,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 [esm-url]: https://github.com/stdlib-js/ndarray-base-output-policy-enum2str/tree/esm
 [branches-url]: https://github.com/stdlib-js/ndarray-base-output-policy-enum2str/blob/main/branches.md
 
-[@stdlib/ndarray/output-dtype-policies]: https://github.com/stdlib-js/stdlib/tree/umd
+[stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-output-policy-enum2str/main/LICENSE
+
+[@stdlib/ndarray/output-dtype-policies]: https://github.com/stdlib-js/stdlib
 
 </section>
 
