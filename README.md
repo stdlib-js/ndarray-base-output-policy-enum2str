@@ -230,7 +230,7 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/ndarray-base-output-policy-enum2str/main/LICENSE
 
-[@stdlib/ndarray/output-dtype-policies]: https://github.com/stdlib-js/stdlib
+[@stdlib/ndarray/output-dtype-policies]: https://github.com/stdlib-js/ndarray-output-dtype-policies
 
 </section>
 
