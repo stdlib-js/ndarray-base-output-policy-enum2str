@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
+## Unreleased (2025-12-29)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`99a718f`](https://github.com/stdlib-js/stdlib/commit/99a718fb54e488b1afba8779182e011452096bec) - **refactor:** use assertion utility _(by Athan Reines)_
 -   [`c27d672`](https://github.com/stdlib-js/stdlib/commit/c27d672d1d72d49c7331f44b9b00f6324d67f218) - **test:** fix tests due to upstream patches _(by Athan Reines)_
 
 </details>
